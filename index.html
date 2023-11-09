@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Selector</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+        .dropbtn {
+            background-color: #4CAF50;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        .description-box {
+            width: 80%;
+            background-color: #f2f2f2;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin: 20px;
+            border-radius: 5px;
+            position: relative;
+        }
+        .description-box button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 8px 12px;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 5px;
+        }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+    </style>
+</head>
+<body>
+<ul>
+  <li><a href="file:///E:/website/big.html">Home</a></li>
+  <li><a href="file:///E:/website/insite.html">Array</a></li>
+<li><a href="file:///E:/website/insite2d.html">2D Array</a></li>
+  <li><a href="file:///E:/website/insiteli.html">Linked List</a></li>
+<li><a href="file:///E:/website/insitequ.html">Queue</a></li>
+  <li><a href="file:///E:/website/insitere.html">Recursion</a></li>
+<li><a href="file:///E:/website/insitesearch.html">Search Algorithem</a></li>
+<li><a href="file:///E:/website/insitesort.html">Sorting Algorithem</a></li>
+<li><a href="file:///E:/website/insitestack.html">Stack</a></li>
+<li><a href="file:///E:/website/insite%20string.html">String</a></li>
+  
+ 
+</ul>
+    
+
+    <div class="description-box">
+        <h3>Array</h3>
+        <p>Array in C can be defined as a method of clubbing multiple entities of similar type into a larger group. These entities or elements can be of int, float, char, or double data type or can be of user-defined data types too like structures.</p>
+        <button onclick="window.location.href='file:///E:/website/insite.html';">Programs</button>
+    </div>
+
+    <div class="description-box">
+        <h3>Two-dimensional array</h3>
+        <p>The two-dimensional array can be defined as an array of arrays. The 2D array is organized as matrices which can be represented as the collection of rows and columns. However, 2D arrays are created to implement a relational database lookalike data structure. It provides ease of holding the bulk of data at once which can be passed to any number of functions wherever required.</p>
+        <button onclick="window.location.href='file:///E:/website/insite2d.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Linked list</h3>
+        <p>A linked list is a linear data structure, in which the elements are not stored at contiguous memory locations. The elements in a linked list are linked using pointers. In simple words, a linked list consists of nodes where each node contains a data field and a reference(link) to the next node in the list. </p>
+        <button onclick="window.location.href='file:///E:/website/insiteli.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Queue </h3>
+        <p>A queue in C is basically a linear data structure to store and manipulate the data elements. It follows the order of First In First Out (FIFO). In queues, the first element entered into the array is the first element to be removed from the array</p>
+        <button onclick="window.location.href='file:///E:/website/insitequ.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Recursion</h3>
+        <p>Recursion is the process which comes into existence when a function calls a copy of itself to work on a smaller problem. Any function which calls itself is called recursive function, and such function calls are called recursive calls. Recursion involves several numbers of recursive calls.</p>
+        <button onclick="window.location.href='file:///E:/website/insitere.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Searching</h3>
+        <p>Searching technique refers to finding a key element among the list of elements. If the given element is present in the list, then the searching process is said to be successful. If the given element is not present in the list, then the searching process is said to be unsuccessful.</p>
+        <button onclick="window.location.href='file:///E:/website/insitesearch.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Sorting</h3>
+        <p>Sorting in c is the processing of arranging the data in ascending and descending order. There are several types of sorting in data structures, namely – bubble sort, insertion sort, selection sort, bucket sort, heap sort, quick sort, radix sort, etc.</p>
+        <button onclick="window.location.href='file:///E:/website/insitesort.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>Stack</h3>
+        <p>A stack is a linear data structure, a collection of items of the same type. In a stack, the insertion and deletion of elements happen only at one endpoint. The behavior of a stack is described as “Last In, First Out” (LIFO).</p>
+        <button onclick="window.location.href='file:///E:/website/insitestack.html';">Programs</button>
+    </div>
+<div class="description-box">
+        <h3>String</h3>
+        <p>tA String in C programming is a sequence of characters terminated with a null character '\0'. The C String is stored as an array of characters. The difference between a character array and a C string is that the string in C is terminated with a unique character '\0'.</p>
+        <button onclick="window.location.href='file:///E:/website/insite%20string.html';">Programs</button>
+    </div>
+
+
+</body>
+</html>
